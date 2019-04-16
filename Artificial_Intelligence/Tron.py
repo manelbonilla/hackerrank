@@ -84,7 +84,7 @@ def nextMove(player, x, y, board):
 		print("Ningun Movimiento Valido")
 		return None, None
 	else:
-		print(arr_var[maxpp])
+		print(arr_moves[maxpp])
 		return pmaxp[0], pmaxp[1]
 
 
