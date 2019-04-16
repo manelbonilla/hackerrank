@@ -25,7 +25,7 @@ def puntua_point(x, y, board, n):
 	return points
 
 def nextMove(player, x, y, board):
-	recursivity_level = 7
+	recursivity_level = 8
 	arr_moves = ["RIGHT", "LEFT", "UP", "DOWN"]
 	arr_var = [[0, 1], [0, -1], [-1, 0], [1, 0]]
 	maxp = None
